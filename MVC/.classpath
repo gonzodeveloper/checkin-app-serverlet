@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="/home/wintergreen/Projects/java_workspace/Jar files/google-maps-services-0.1.20.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/wintergreen/Projects/java_workspace/Jar files/javaee-api-7.0.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/wintergreen/Projects/java_workspace/Jar files/servlet-api-2.5.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/wintergreen/Projects/java_workspace/Jar files/mysql-connector-java-5.1.40/mysql-connector-java-5.1.40-bin.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/wintergreen/Projects/java_workspace/Jar files/okhttp-2.7.5.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/wintergreen/Projects/java_workspace/Jar files/gson-2.8.0.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/wintergreen/Projects/java_workspace/Jar files/httpclient-4.5.3.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/wintergreen/Projects/java_workspace/Jar files/httpcore-4.4.6.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/wintergreen/Projects/java_workspace/Jar files/commons-logging-1.1.3.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/wintergreen/Projects/java_workspace/Jar files/commons-dbutils-1.6.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/wintergreen/repo/checkin_app/jar files/commons-dbutils-1.6.jar"/>
+	<classpathentry kind="lib" path="/home/wintergreen/repo/checkin_app/jar files/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="/home/wintergreen/repo/checkin_app/jar files/google-maps-services-0.1.20.jar"/>
+	<classpathentry kind="lib" path="/home/wintergreen/repo/checkin_app/jar files/gson-2.8.0.jar"/>
+	<classpathentry kind="lib" path="/home/wintergreen/repo/checkin_app/jar files/httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="/home/wintergreen/repo/checkin_app/jar files/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="/home/wintergreen/repo/checkin_app/jar files/javaee-api-7.0.jar"/>
+	<classpathentry kind="lib" path="/home/wintergreen/repo/checkin_app/jar files/okhttp-2.7.5.jar"/>
+	<classpathentry kind="lib" path="/home/wintergreen/repo/checkin_app/jar files/servlet-api-2.5.jar"/>
+	<classpathentry kind="lib" path="/home/wintergreen/repo/checkin_app/jar files/mysql-connector-java-5.1.40/mysql-connector-java-5.1.40-bin.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
