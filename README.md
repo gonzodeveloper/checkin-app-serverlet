@@ -1,6 +1,6 @@
 # Checkin_App_Serveret
 
-##A Java Serverlet interface that allows users to search for and log checkin's to "places" via the Google Geocoding API
+## A Java Serverlet interface that allows users to search for and log checkin's to "places" via the Google Geocoding API
 
 **Controller**
 
@@ -19,4 +19,5 @@ I have not fully constructed a "View" for this framework, aside from a single pa
 The database for the application is a standard MySQL database. I've proveded a script for creating the tables, granting privilages to the serverlet as "webuser", and creating a trigger limit users' to one login per minute. The schema has three tables: users, places, and checkins. The users login names are stored along with hashed passwords and other meta data. Places and their metadata are inserted into the database only once a user has logged a checkin, otherwise the table is empty.
 
 **SETUP**
-This should run on a Tomcat Server 2.5 or 3.0, with version Java 8 or newer. In order for the program to complie in an IDE (particularly Eclipse), the included Jar files should be added to the project's buildpath and enabled for export. In order to run on the Tomcat server, the project should be exported as a .war file and placed in the servers root directory (whichever director has the conf file /usr/share/tomcat or /opt/tomcat. Likewise, the Tomcat directory and its subfolders should be given the appropriate permissions via the chmod and chown commands (eclipse will need write and execute permissions for development) 
+
+This should run on a Tomcat Server 2.5 or 3.0, with version Java 8 or newer. In order for the program to complie in an IDE (particularly Eclipse), the included Jar files should be added to the project's buildpath and enabled for export. In order to run on the Tomcat server, the project should be exported as a .war file and placed in the servers root directory (whichever director has the conf file /usr/share/tomcat or /opt/tomcat. Likewise, the Tomcat directory and its subfolders should be given the appropriate permissions via the chmod and chown commands (eclipse will need write and execute permissions for development)
