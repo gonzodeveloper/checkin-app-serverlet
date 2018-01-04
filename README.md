@@ -1,6 +1,6 @@
 # Checkin_App_Serveret
 
-** A Java Serverlet interface that allows users to search for and log checkin's to "places" via the Google Geocoding API
+##A Java Serverlet interface that allows users to search for and log checkin's to "places" via the Google Geocoding API
 
 **Controller**
 
